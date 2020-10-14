@@ -1,5 +1,4 @@
 import React from 'react'
-import InstagramFeed from './InstagramFeed'
 import './Footer.css'
 
 export default () => (
@@ -9,8 +8,8 @@ export default () => (
       <a href="https://instagram.com/thrivegoldcoast/">@thrivegoldcoast</a>
     </h2>
     <br />
-    <InstagramFeed count="8" />
     <footer className="footer">
+    <div class="powr-instagram-feed" id="d61e3750_1602650889"></div><script src="https://www.powr.io/powr.js?platform=react"></script>
       <div className="container taCenter">
         <span>
           © Copyright {new Date().getFullYear()} All rights reserved. Crafted by{' '}
