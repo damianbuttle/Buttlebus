@@ -1,5 +1,7 @@
 import React from 'react'
 import './Footer.css'
+import Feed from "react-instagram-authless-feed"
+
 
 export default () => (
   <div>
@@ -8,7 +10,7 @@ export default () => (
       <a href="https://instagram.com/thrivegoldcoast/">@thrivegoldcoast</a>
     </h2>
     <br />
-    <div class="powr-instagram-feed" id="d61e3750_1602650889"></div><script src="https://www.powr.io/powr.js?platform=react"></script>
+    <Feed username="jamespaulmoriarty" />,
     <footer className="footer">
       <div className="container taCenter">
         <span>
