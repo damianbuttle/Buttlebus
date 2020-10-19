@@ -1,6 +1,5 @@
 import React from 'react'
 import './Footer.css'
-import Feed from "react-instagram-authless-feed"
 
 
 export default () => (
@@ -10,7 +9,6 @@ export default () => (
       <a href="https://instagram.com/thrivegoldcoast/">@thrivegoldcoast</a>
     </h2>
     <br />
-    <Feed username="jamespaulmoriarty" />,
     <footer className="footer">
       <div className="container taCenter">
         <span>
