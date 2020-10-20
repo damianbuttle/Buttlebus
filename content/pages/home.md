@@ -1,7 +1,7 @@
 ---
 template: HomePage
 slug: ""
-title: Yellowcake
+title: Buttlesonthebus
 featuredImage: https://ucarecdn.com/1bec0a16-9da3-4f2f-a8cf-abb2f69d4e18/
 subtitle: " Welcome to the ultimate Gatsby and Netlify starter project."
 meta:
