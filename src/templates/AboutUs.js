@@ -1,26 +1,16 @@
 import React from 'react'
 import { graphql } from 'gatsby'
-
 import PageHeader from '../components/PageHeader'
 import Content from '../components/Content.js'
 import Layout from '../components/Layout.js'
-import Accordion from '../components/Accordion'
-import BackgroundVideo from '../components/BackgroundVideo'
 import Gallery from '../components/Gallery'
-import Popup from '../components/Popup'
 
 // Export Template for use in CMS preview
-export const ComponentsPageTemplate = ({
+export const AboutUsTemplate = ({
   title,
   subtitle,
   featuredImage,
   section1,
-  section2,
-  video,
-  videoPoster,
-  videoTitle,
-  accordion,
-  body,
   gallery
 }) => (
   <main>
@@ -45,7 +35,7 @@ export const ComponentsPageTemplate = ({
   </main>
 )
 
-const ComponentsPage = ({ data: { page } }) => (
+const AboutUsPage = ({ data: { page } }) => (
   <Layout
     meta={page.frontmatter.meta || false}
     title={page.frontmatter.title || false}
@@ -54,7 +44,7 @@ const ComponentsPage = ({ data: { page } }) => (
   </Layout>
 )
 
-export default ComponentsPage
+export default AboutUsPage
 
 export const pageQuery = graphql`
   query ComponentsPage($id: String!) {
@@ -68,14 +58,6 @@ export const pageQuery = graphql`
         subtitle
         featuredImage
         section1
-        section2
-        video
-        videoPoster
-        videoTitle
-        accordion {
-          title
-          description
-        }
       }
     }
   }
