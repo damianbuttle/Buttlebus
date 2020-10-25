@@ -107,12 +107,6 @@ module.exports = {
       }
     },
     {
-      resolve: 'gatsby-source-instagram',
-      options: {
-          username: 'buttlesonthebus'
-      }
-  },
-    {
       resolve: `gatsby-plugin-postcss`,
       options: {
         postCssPlugins: [
