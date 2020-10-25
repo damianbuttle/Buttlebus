@@ -40,14 +40,14 @@ const AboutUsPage = ({ data: { page } }) => (
     meta={page.frontmatter.meta || false}
     title={page.frontmatter.title || false}
   >
-    <ComponentsPageTemplate {...page} {...page.frontmatter} body={page.html} />
+    <AboutUsTemplate {...page} {...page.frontmatter} body={page.html} />
   </Layout>
 )
 
 export default AboutUsPage
 
 export const pageQuery = graphql`
-  query ComponentsPage($id: String!) {
+  query AboutUs($id: String!) {
     page: markdownRemark(id: { eq: $id }) {
       ...Meta
       ...Gallery
