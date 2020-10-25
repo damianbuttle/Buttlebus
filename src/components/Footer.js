@@ -1,5 +1,4 @@
 import React from 'react'
-import './instagram.scss'
 import './Footer.css'
 
 
