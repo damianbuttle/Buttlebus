@@ -5,10 +5,11 @@ title: Buttlesonthebus
 featuredImage: https://ucarecdn.com/1bec0a16-9da3-4f2f-a8cf-abb2f69d4e18/
 subtitle: Come and find out more about our travels and adventures.
 meta:
-  description: This is a meta description.
+  description: Follow the adventures of a family of 5 traveling around the United
+    States of America.
   title: Buttles on the Bus
 ---
-Yellowcake is an opinionated starter project created by [Thrive Digital](https://thriveweb.com.au/) a [Gold Coast Web Design](https://thriveweb.com.au/) studio. to help you create lightning fast websites with [Gatsby](https://gatsbyjs.org) and [Netlify CMS](https://netlifycms.org).
+We are ButtlesontheBus and live and travel on a converted 1996 Bluebird schoolbus.
 
 View the [project overview](https://thriveweb.com.au/the-lab/yellowcake-gatsby-react-js-starter-project/) and the [docs](https://github.com/thriveweb/yellowcake/blob/master/README.md).
 
@@ -29,6 +30,7 @@ View the [Netlify CMS Docs](https://www.netlifycms.org/docs/) and the [Netlify C
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/thriveweb/yellowcake&stack=cms)
 
 <!-- Place <div> tag where you want the feed to appear -->
+
 <div id="curator-feed-default-feed-layout"><a href="https://curator.io" target="_blank" class="crt-logo crt-tag">Powered by Curator.io</a></div>
 <!-- The Javascript can be moved to the end of the html page before the </body> tag -->
 <script type="text/javascript">
