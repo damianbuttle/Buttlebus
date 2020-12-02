@@ -3,10 +3,10 @@ template: HomePage
 slug: ""
 title: Buttlesonthebus
 featuredImage: https://ucarecdn.com/1bec0a16-9da3-4f2f-a8cf-abb2f69d4e18/
-subtitle: " Welcome to the ultimate Gatsby and Netlify starter project."
+subtitle: Come and find out more about our travels and adventures.
 meta:
   description: This is a meta description.
-  title: The Ultimate Gatsby Starter
+  title: Buttles on the Bus
 ---
 Yellowcake is an opinionated starter project created by [Thrive Digital](https://thriveweb.com.au/) a [Gold Coast Web Design](https://thriveweb.com.au/) studio. to help you create lightning fast websites with [Gatsby](https://gatsbyjs.org) and [Netlify CMS](https://netlifycms.org).
 
