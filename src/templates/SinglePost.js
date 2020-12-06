@@ -121,6 +121,7 @@ export const pageQuery = graphql`
       html
       id
       frontmatter {
+        featuredImage
         title
         template
         subtitle
