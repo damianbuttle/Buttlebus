@@ -4,11 +4,14 @@ import { Link, graphql } from 'gatsby'
 import { ChevronLeft } from 'react-feather'
 
 import Content from '../components/Content'
+import PageHeader from '../components/PageHeader'
 import Layout from '../components/Layout'
 import './SinglePost.css'
 
 export const SinglePostTemplate = ({
   title,
+  subtitle,
+  featuredImage,
   date,
   body,
   nextPostURL,
@@ -16,6 +19,11 @@ export const SinglePostTemplate = ({
   categories = []
 }) => (
   <main>
+    <PageHeader
+      title={title}
+      subtitle={subtitle}
+      backgroundImage={featuredImage}
+    />
     <article
       className="SinglePost section light"
       itemScope
@@ -52,12 +60,6 @@ export const SinglePostTemplate = ({
               </Fragment>
             )}
           </div>
-
-          {title && (
-            <h1 className="SinglePost--Title" itemProp="title">
-              {title}
-            </h1>
-          )}
 
           <div className="SinglePost--InnerContent">
             <Content source={body} />
