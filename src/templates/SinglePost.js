@@ -5,6 +5,7 @@ import { ChevronLeft } from 'react-feather'
 
 import Content from '../components/Content'
 import PageHeader from '../components/PageHeader'
+import Gallery from '../components/Gallery'
 import Layout from '../components/Layout'
 import './SinglePost.css'
 
@@ -14,6 +15,7 @@ export const SinglePostTemplate = ({
   featuredImage,
   date,
   body,
+  gallery,
   nextPostURL,
   prevPostURL,
   categories = []
@@ -63,6 +65,11 @@ export const SinglePostTemplate = ({
 
           <div className="SinglePost--InnerContent">
             <Content source={body} />
+            <section className="section">
+              <div className="container">
+                  <Gallery images={gallery} />
+              </div>
+            </section>
           </div>
 
           <div className="SinglePost--Pagination">
@@ -118,6 +125,7 @@ export const pageQuery = graphql`
   query SinglePost($id: String!) {
     post: markdownRemark(id: { eq: $id }) {
       ...Meta
+      ...Gallery
       html
       id
       frontmatter {
